@@ -133,11 +133,9 @@ console.log("Experience :", employeeDetails.experience + " Years");
 
 let empBonus = employeeDetails.salary * 10 / 100;
 let empFinalSalary = employeeDetails.salary + empBonus;
-
 console.log("Bonus :", empBonus);
 console.log("Final Salary :", empFinalSalary);
 
 let performanceStatus =
     employeeDetails.experience >= 2 ? "Good" : "Average";
-
 console.log("Performance Status :", performanceStatus);
