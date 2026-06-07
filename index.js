@@ -1,6 +1,6 @@
 // 04-06-2026 Java Script Task's
 
-// Question No - 1 Create 3 variables:
+// Question No - 1 Create 3 variables
 let studentName = "Mano";
 let studentAge = 26;
 let studentCourse = "MERN Stack";
