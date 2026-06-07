@@ -109,6 +109,7 @@ console.log("After --a :", a);
 
 // Question No - 10 Mini Employee Attendance System
 let isPresent = true;
+
 let completedTask = true;
 
 if (isPresent && completedTask) {
