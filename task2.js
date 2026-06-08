@@ -1,4 +1,4 @@
-// 05-06-2026 Java Script Task's
+// 05-06-2026 Java Script Task's - 2
 
 
 // Question No - 1 Student Result Checker

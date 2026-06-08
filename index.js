@@ -1,4 +1,4 @@
-// 04-06-2026 Java Script Task's
+// 04-06-2026 Java Script Task's - 1
 
 // Question No - 1 Create 3 variables
 let studentName = "Mano";
