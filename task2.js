@@ -109,7 +109,6 @@ console.log("After --a :", a);
 
 // Question No - 10 Mini Employee Attendance System
 let isPresent = true;
-
 let completedTask = true;
 if (isPresent && completedTask) {
     console.log("Eligible for Salary");
