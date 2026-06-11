@@ -1,4 +1,4 @@
-// 059-06-2026 Java Script Task's - 4
+// 09-06-2026 Java Script Task's - 4
 
 
 // Question No - 1 Age Category Finder
@@ -16,7 +16,6 @@ else if (age <= 59) {
 else {
     console.log("Category : Senior Citizen");
 }
-
 
 
 // Question No - 2 Salary Hike Calculator
