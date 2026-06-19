@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TREND MART</title>
+    <link rel="stylesheet" href="tsak9.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <header>
+
+        <div class="logo">
+            TREND MART
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Categories</a></li>
+                <li><a href="#">New Arrivals</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div class="cart-icon">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <span id="cartCount">0</span>
+        </div>
+
+    </header>
+
+    <section class="hero">
+
+        <div class="hero-content">
+            <h1>Welcome To TREND MART</h1>
+            <p>Explore Fashion, Electronics, Jewelry & More</p>
+            <button onclick="scrollToProducts()">Shop Now</button>
+        </div>
+
+    </section>
+
+    <section class="controls">
+
+        <div class="search-box">
+            <label for="search">Search Product</label>
+
+            <input
+                type="text"
+                id="search"
+                placeholder="Search Men's Product">
+        </div>
+
+        <div class="filter-box">
+            <label for="category">Category</label>
+
+            <select id="category">
+                <option value="all">All Categories</option>
+                <option value="men's clothing">Men's Clothing</option>
+                <option value="electronics">Electronics</option>
+                <option value="jewelery">Jewelry</option>
+                <option value="women's clothing">Women's Clothing</option>
+            </select>
+        </div>
+
+    </section>
+
+    <h2 id="loading">Loading Products...</h2>
+
+    <section class="statistics">
+
+        <div class="stat-card">
+            <h3>Total Products</h3>
+            <p id="totalProducts">0</p>
+        </div>
+
+        <div class="stat-card">
+            <h3>Average Price</h3>
+            <p id="averagePrice">$0</p>
+        </div>
+
+        <div class="stat-card">
+            <h3>Highest Price</h3>
+            <p id="highestPrice">-</p>
+        </div>
+
+        <div class="stat-card">
+            <h3>Lowest Price</h3>
+            <p id="lowestPrice">-</p>
+        </div>
+
+    </section>
+
+    <section id="productsSection">
+
+        <h2 class="section-title">Trending Products</h2>
+        <div id="products"></div>
+
+    </section>
+
+    <section class="cart-section">
+        <h2>Shopping Cart</h2>
+
+        <div id="cartItems"></div>
+
+        <div class="cart-total">
+            <h3>
+                Total Price :
+                $<span id="cartTotal">0</span>
+            </h3>
+        </div>
+    </section>
+
+    <section class="about">
+
+        <h2>About TREND MART</h2>
+
+        <p>
+            TREND MART is your one-stop online shopping destination
+            for fashion, electronics, jewelry, and lifestyle products.
+            We bring quality products at affordable prices with a
+            smooth shopping experience.
+        </p>
+
+    </section>
+
+    <footer>
+
+        <div class="footer-content">
+            <div class="footer-logo">
+                <h2>TREND MART</h2>
+                <p>Fashion • Electronics • Jewelry</p>
+            </div>
+
+            <div class="social-icons">
+                <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="#" title="Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="#" title="Facebook"><i class="fab fa-facebook"></i></a>
+                <a href="#" title="LinkedIn"><i class="fab fa-linkedin"></i></a></a>
+            </div>
+        </div>
+
+        <hr>
+        <p class="copyright">
+            © 2026 STILYS MEN.
+            All Rights Reserved.
+        </p>
+
+    </footer>
+
+    <script src="task9.js"></script>
+</body>
+</html>
